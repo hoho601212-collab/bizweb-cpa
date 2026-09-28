@@ -1,0 +1,1 @@
+export const env={databaseUrl:process.env.DATABASE_URL??"",authSecret:process.env.AUTH_SECRET??"",ipHashSalt:process.env.IP_HASH_SALT??"",siteUrl:process.env.NEXT_PUBLIC_SITE_URL??"http://localhost:3000"};export const hasDatabase=()=>Boolean(env.databaseUrl);
