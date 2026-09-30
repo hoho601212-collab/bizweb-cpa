@@ -44,3 +44,5 @@
 .faqItem:hover{border-color:#cdd8ff}
 .footer{max-width:1180px}
 @media(max-width:760px){.subHero{padding:48px 20px;border-radius:0 0 24px 24px}.subHero h1{font-size:36px}.authWrap{padding:30px 14px}.detailHero{margin:14px;border-radius:22px}.summary{grid-template-columns:1fr}}
+
+.heroImageSlot.heroImageLive{background-image:url('/images/home/bizweb-hero.webp');background-size:cover;background-position:center right;background-repeat:no-repeat;border:0;min-height:300px;box-shadow:0 22px 50px rgba(49,95,244,.12)}@media(max-width:800px){.heroImageSlot.heroImageLive{min-height:220px;background-position:center right}}
