@@ -52,3 +52,6 @@
 .homeHeroCopy{position:relative;z-index:2;max-width:600px}
 .homeHero .heroImageLive{display:none}
 @media(max-width:800px){.homeHero{min-height:560px;background-size:auto 100%;background-position:62% center;align-items:flex-start;padding-top:42px}.homeHeroCopy{max-width:94%;background:rgba(255,255,255,.72);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:22px;border-radius:22px}}
+
+/* 3D service navigation icons */
+.quickServices.serviceIcons>a{padding:18px 10px 20px;gap:3px;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}.quickServices.serviceIcons>a:hover{transform:translateY(-5px);background:#fff;box-shadow:0 16px 35px rgba(31,54,110,.10)}.quickServices.serviceIcons img{display:block;width:112px;height:92px;object-fit:contain;margin:0 auto 4px}.quickServices.serviceIcons b{font-size:16px}.quickServices.serviceIcons span{font-size:13px;color:#8a94a6}@media(max-width:800px){.quickServices.serviceIcons img{width:88px;height:72px}.quickServices.serviceIcons>a{padding:14px 6px 16px}}
