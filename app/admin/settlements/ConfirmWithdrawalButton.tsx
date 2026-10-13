@@ -1,0 +1,2 @@
+"use client";
+export default function ConfirmWithdrawalButton({status,amount,member,disabled=false}:{status:"PROCESSING"|"PAID";amount:number;member:string;disabled?:boolean}){return <button type="submit" name="status" value={status} disabled={disabled} onClick={event=>{const action=status==="PAID"?"지급완료":"지급 검수완료";const notice=status==="PAID"?"\n실제 계좌 이체를 확인한 경우에만 진행하세요.":"";if(!window.confirm(member+" 회원의 "+amount.toLocaleString("ko-KR")+"원 출금을 '"+action+"' 처리하시겠습니까?"+notice))event.preventDefault()}}>{status==="PAID"?"지급완료":"지급 검수완료"}</button>}
